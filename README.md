@@ -1,6 +1,6 @@
 # SALES_PERFORMANCE_ANALYSIS_PROJECT
 ---
-This project focuses on analyzing sales performance to gain deeper insights into business effectiveness and customer behavior. By examining key metrics such as sales volume, revenue trends, and customer acquisition costs, we aim to identify patterns and areas for improvement. This project analysis will help us utilize historical sales data, comparative benchmarks, and market trends to inform strategies that enhance sales efficiency and drive growth. I'm really happy working on this project.
+This project focuses on analyzing sales performance to gain deeper insights into business effectiveness and customer behavior. By examining key metrics such as sales volume, revenue trends, and customer acquisition costs, my aim is to identify patterns and areas for improvement. This project analysis will help me utilize historical sales data, comparative benchmarks, and market trends to inform strategies that enhance sales efficiency and drive growth. I'm really happy working on this project.
 
 ## PROJECT TITLE: Sales Performance Analysis Process
 ---
@@ -32,18 +32,18 @@ The Primary source of this Data set is gotten from an online Retail Store.
   3. For creating summarizations using Pivot Tables
   4. For Data Visulalization
 
-- SQL-Structured Query Language [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+ - SQL-Structured Query Language [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
-  It is Used for Data Query such as;
-  Finding Top 5 Customers, Calculating the Total Sales for each product, Calculating the Percentage of Total Sales contributed.
+    It is Used for Data Query such as;
+    Finding Top 5 Customers, Calculating the Total Sales for each product, Calculating the Percentage of Total Sales contributed.
 
-- Power BI DeskTop [Download Here](https://powerbi.microsoft.com/desktop/)
+ - Power BI DeskTop [Download Here](https://powerbi.microsoft.com/desktop/)
 
-  It is used to create a Dashboard that Visualizes the insights found in both EXCEL, SQL and BI Reports.
+    It is used to create a Dashboard that Visualizes the insights found in both EXCEL, SQL and BI Reports.
 
-- GitHub [Download Here](https://github.com)
+ - GitHub [Download Here](https://github.com)
 
-  It is used for Porfolio Building.
+    It is used for Porfolio Building.
 
 ## Data Cleaning and Preparation
 ---
@@ -72,6 +72,7 @@ Data analysis is a critical step in understanding sales performance and making i
 
 ![Line chart](https://github.com/user-attachments/assets/682a4d68-34e7-482f-b0dc-c5b8a34b794b)
 
+
  2. Product Performance: Analyze sales by product category in;
     - Finding The Highest selling Product by Total Revenue. 
 
@@ -82,6 +83,7 @@ Data analysis is a critical step in understanding sales performance and making i
 
 ![SQL 1](https://github.com/user-attachments/assets/943d2d62-dc95-451d-9697-175b7fea6454)
 
+  
   3. Pivot Summary Analysis: Examine sales data of product by Sum of UnitPrice, Product by Sum of Quantity and Region by Sum of Quantity.
 
 
@@ -95,3 +97,9 @@ Using PowerBI Tool to create Viusal representations susch as Bar Chart, Line Gra
 
     
 ![Sales Performance powerBI](https://github.com/user-attachments/assets/7663787e-735c-48b1-9f87-101d1fedd29c)
+
+
+|Name:|Idemudia|Esther|
+|-----|--------|------|
+|TechSkill:|Data|Analyst|
+
