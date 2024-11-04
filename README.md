@@ -55,5 +55,35 @@ Data cleaning and preparation are crucial steps in ensuring the accuracy and rel
 ## Data Analysis
 ---
 Data analysis is a critical step in understanding sales performance and making informed business decisions. This process involves applying various analytical techniques to the cleaned and prepared data to extract meaningful insights. Here are some Key Components for Data Analysis;
-  - Summary Statistics: Calculate basic metrics such as total sales, average sales per transaction, and total number of customers.
+ 1. Summary Statistics: Calculate basic metrics such as Product by total Revenue, Region by Total Revenue, and Month by Total Revenue.
+  
+  - Product by Total Revenue
+
+    
+ ![Bar Chart 1](https://github.com/user-attachments/assets/6004561a-444e-4585-8702-16f1cce89fc5)
+
+  - Region by total Revenue
+
  
+![Pie Chart 1](https://github.com/user-attachments/assets/6c16d178-e918-4c5d-b235-255c83323b02)
+
+  - Month by Total Revenue
+
+
+![Line chart](https://github.com/user-attachments/assets/682a4d68-34e7-482f-b0dc-c5b8a34b794b)
+
+ 2. Product Performance: Analyze sales by product category in;
+    - Finding The Highest selling Product by Total Revenue. 
+
+    ```SQL
+    Select Product, Sum(Total_Revenue) as Total_Sales_Value from SalesDatatable
+    Group by Product
+    Order by 2 DESC
+
+    - Retrieve the Total Sales for each product Category.
+
+    ```SQL
+    Select Product,Sum(Total_Revenue) as Total sales from SalesDatatable
+    Group by Product
+
+    
