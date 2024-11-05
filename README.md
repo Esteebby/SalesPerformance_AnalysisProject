@@ -101,7 +101,11 @@ Data visualization is a powerful tool for conveying complex sales performance da
   - Pie Charts: Useful for showing the breakdown of sales by different customer segments (e.g., customer size, or region).
 
 
-    
+
+![Sales Performance powerBI](https://github.com/user-attachments/assets/4339c141-c7f4-40d7-9a6c-73a59cdf7114)
+
+
+
 By leveraging the right data visualization tools and techniques, businesses can gain deeper insights into their sales performance, monitor key metrics in real-time, and make data-driven decisions that help drive growth.
 
 
