@@ -57,20 +57,20 @@ Data cleaning and preparation are crucial steps in ensuring the accuracy and rel
 Data analysis is a critical step in understanding sales performance and making informed business decisions. This process involves applying various analytical techniques to the cleaned and prepared data to extract meaningful insights. Here are some Key Components for Data Analysis;
  1. Summary Statistics: Calculate basic metrics such as Product by total Revenue, Region by Total Revenue, and Month by Total Revenue.
   
-  - Product by Total Revenue
+  - Product by Total Revenue:
     In this summary i notied that Shoes has the highest total Revenue among all the Product. 
     
 
     
  ![Bar Chart 1](https://github.com/user-attachments/assets/6004561a-444e-4585-8702-16f1cce89fc5)
 
-  - Region by total Revenue
+  - Region by total Revenue:
     For all the Regions, South has the highest Total Revenue among all the Region 
 
  
 ![Pie Chart 1](https://github.com/user-attachments/assets/6c16d178-e918-4c5d-b235-255c83323b02)
 
-  - Month by Total Revenue
+  - Month by Total Revenue:
     January has the highest Total Revenue in the year 2024.
 
 
