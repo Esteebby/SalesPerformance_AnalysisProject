@@ -78,17 +78,16 @@ Data analysis is a critical step in understanding sales performance and making i
 
 
  2. Product Performance: Analyze sales by product category in;
-    - Finding The Highest selling Product by Total Revenue. 
+    - Retrieve the total sales for each product category. 
 
     ```SQL
-    Select Product, Sum(Total_Revenue) as Total_Sales_Value from SalesDatatable
-    Group by Product
-    Order by 2 DESC
+    Select Product, Sum(Total_Revenue) as Totalsales From SalesData
+    Group by Product 
 
-![SQL 1](https://github.com/user-attachments/assets/943d2d62-dc95-451d-9697-175b7fea6454)
+
 
   
-  3. Pivot Summary Analysis: Examine sales data of product by Sum of UnitPrice, Product by Sum of Quantity and Region by Sum of Quantity.
+  4. Pivot Summary Analysis: Examine sales data of product by Sum of UnitPrice, Product by Sum of Quantity and Region by Sum of Quantity.
 
 
 ![Pivot summary](https://github.com/user-attachments/assets/4c3d19e9-1664-4ee6-96f0-498c11fa853b)
