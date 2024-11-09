@@ -74,20 +74,70 @@ Data analysis is a critical step in understanding sales performance and making i
     January has the highest Total Revenue in the year 2024.
 
 
-![Line chart](https://github.com/user-attachments/assets/682a4d68-34e7-482f-b0dc-c5b8a34b794b)
+![Line chart](https://github.com/user-attachments/assets/682a4d68-34e7-482f-b0dc-c5b8a34b794b)  
+
+---
 
 
  2. Product Performance: Analyze sales by product category in;
-    - Retrieve the total sales for each product category. 
+    - Retrieve the total sales for each product category.
+   
+    ```SQL
+    Select * from SalesData
+
+
+      
+![Sales 1](https://github.com/user-attachments/assets/8b0001f3-a55e-4e38-9ba7-197509a9bffd) 
+
+
 
     ```SQL
     Select Product, Sum(Total_Revenue) as Totalsales From SalesData
-    Group by Product 
+    Group by Product
+
+
+
+![Sales 2](https://github.com/user-attachments/assets/69669b7f-ee74-42d9-aac4-d50d3e8598b7)  
+
+
+
+![Sales 3](https://github.com/user-attachments/assets/b54e6aa7-4c0c-49e1-bfba-7b76648a1b34)  
+
+
+
+![Sales 4](https://github.com/user-attachments/assets/5d44a2ae-cd4f-4abe-8197-0d9b9292e0f8)   
+
+
+
+
+![Sales 5](https://github.com/user-attachments/assets/5309e591-b616-4648-8570-8c02cde2fce8)   
+
+
+
+
+
+![Sales 6](https://github.com/user-attachments/assets/eec4d1f6-723b-4283-bddb-6dd06604aa9a)  
+
+
+
+
+
+![Sales 7](https://github.com/user-attachments/assets/ee3101ad-9d53-41bf-b126-cc311de7bf2a)    
+
+
+
+
+![Sales 8](https://github.com/user-attachments/assets/630cf708-418a-48a7-bd49-4ff7d1509a2b)   
+
+---
+
+
+
 
 
 
   
-  4. Pivot Summary Analysis: Examine sales data of product by Sum of UnitPrice, Product by Sum of Quantity and Region by Sum of Quantity.
+  3. Pivot Summary Analysis: Examine sales data of product by Sum of UnitPrice, Product by Sum of Quantity and Region by Sum of Quantity.
 
 
 ![Pivot summary](https://github.com/user-attachments/assets/4c3d19e9-1664-4ee6-96f0-498c11fa853b)
